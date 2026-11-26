@@ -248,11 +248,17 @@ public sealed class RPHud : PanelComponent
 		_chipKey = _agendaKey = _bannerKey = _voteKey = _targetKey = null;
 	}
 
+	bool _mWasDown;
+
 	void HandleKeys()
 	{
 		var h = RPUi.H;
+		// M opens/closes the menu. "Pressed" can miss a press, so a key that is down now and wasn't last frame counts too.
+		var mDown = Input.Keyboard.Down( "m" );
+		var mPressed = Input.Keyboard.Pressed( "m" ) || (mDown && !_mWasDown);
+		_mWasDown = mDown;
 		if ( RPUi.Typing() ) return;
-		if ( Input.Keyboard.Pressed( "m" ) && h.Dialog == "" )
+		if ( mPressed && h.Dialog == "" )
 		{
 			h.MenuOpen = !h.MenuOpen;
 			return;
