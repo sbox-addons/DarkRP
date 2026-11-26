@@ -1,0 +1,9 @@
+{
+  "Prefab": "darkrp/weapons/weaponchecker.prefab",
+  "Title": "Weapon Checker",
+  "Description": "DarkRP: Weapon Checker",
+  "Category": "DarkRP",
+  "IncludeCode": false,
+  "__references": [],
+  "__version": 0
+}

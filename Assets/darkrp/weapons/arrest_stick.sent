@@ -1,0 +1,9 @@
+{
+  "Prefab": "darkrp/weapons/arrest_stick.prefab",
+  "Title": "Arrest Baton",
+  "Description": "DarkRP: Arrest Baton",
+  "Category": "DarkRP",
+  "IncludeCode": false,
+  "__references": [],
+  "__version": 0
+}

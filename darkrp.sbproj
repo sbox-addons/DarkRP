@@ -1,0 +1,24 @@
+{
+  "Title": "DarkRP (BETA)",
+  "Type": "addon",
+  "Org": "local",
+  "OrgTitle": null,
+  "Ident": "darkrp",
+  "Schema": 1,
+  "IncludeSourceFiles": false,
+  "Resources": "DARKRP_NOTICE.txt",
+  "PublishUsedAssetsOnly": false,
+  "PackageReferences": [],
+  "EditorReferences": null,
+  "Mounts": null,
+  "IsStandaloneOnly": false,
+  "AI": {
+    "EnableMcpCommunication": true
+  },
+  "Metadata": {
+    "StartupScene": "scenes/testing_scene.scene",
+    "ParentPackage": "facepunch.sandbox",
+    "WorkshopTags": [],
+    "WorkshopId": 3846229017
+  }
+}

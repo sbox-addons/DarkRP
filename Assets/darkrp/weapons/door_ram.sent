@@ -1,0 +1,9 @@
+{
+  "Prefab": "darkrp/weapons/door_ram.prefab",
+  "Title": "Battering Ram",
+  "Description": "DarkRP: Battering Ram",
+  "Category": "DarkRP",
+  "IncludeCode": false,
+  "__references": [],
+  "__version": 0
+}

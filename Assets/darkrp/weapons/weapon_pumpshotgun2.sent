@@ -1,0 +1,9 @@
+{
+  "Prefab": "darkrp/weapons/weapon_pumpshotgun2.prefab",
+  "Title": "Pump Shotgun",
+  "Description": "DarkRP: Pump Shotgun",
+  "Category": "DarkRP",
+  "IncludeCode": false,
+  "__references": [],
+  "__version": 0
+}

@@ -1,0 +1,9 @@
+{
+  "Prefab": "darkrp/weapons/ls_sniper.prefab",
+  "Title": "Silenced Sniper",
+  "Description": "DarkRP: Silenced Sniper",
+  "Category": "DarkRP",
+  "IncludeCode": false,
+  "__references": [],
+  "__version": 0
+}

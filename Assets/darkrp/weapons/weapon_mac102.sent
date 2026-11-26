@@ -1,0 +1,9 @@
+{
+  "Prefab": "darkrp/weapons/weapon_mac102.prefab",
+  "Title": "Mac10",
+  "Description": "DarkRP: Mac10",
+  "Category": "DarkRP",
+  "IncludeCode": false,
+  "__references": [],
+  "__version": 0
+}

@@ -1,0 +1,9 @@
+{
+  "Prefab": "darkrp/weapons/stunstick.prefab",
+  "Title": "Stun Stick",
+  "Description": "DarkRP: Stun Stick",
+  "Category": "DarkRP",
+  "IncludeCode": false,
+  "__references": [],
+  "__version": 0
+}

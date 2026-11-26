@@ -1,0 +1,168 @@
+{
+  "RootObject": {
+    "__guid": "b75b61b0-246e-4e8d-b1c8-25ffc100dca6",
+    "__version": 2,
+    "Flags": 0,
+    "Name": "crowbar_wm",
+    "Position": "0,0,0",
+    "Rotation": "3.38065007E-07,0,0,1",
+    "Scale": "1,1,1",
+    "Tags": "",
+    "Enabled": true,
+    "NetworkMode": 0,
+    "NetworkFlags": 0,
+    "NetworkOrphaned": 0,
+    "NetworkTransmit": true,
+    "OwnerTransfer": 1,
+    "Components": [
+      {
+        "__type": "Sandbox.BaseWeaponModel",
+        "__guid": "33ee4fba-9ceb-41b7-b520-666ec4c6fcd7",
+        "__enabled": true,
+        "Flags": 0,
+        "DeploySound": null,
+        "EjectBrass": null,
+        "MuzzleEffect": null,
+        "MuzzleGameObject": null,
+        "OnComponentDestroy": null,
+        "OnComponentDisabled": null,
+        "OnComponentEnabled": null,
+        "OnComponentFixedUpdate": null,
+        "OnComponentStart": null,
+        "OnComponentUpdate": null,
+        "Renderer": null,
+        "ShellEjectGameObject": null,
+        "TracerEffect": null
+      }
+    ],
+    "Children": [
+      {
+        "__guid": "964de30a-d9f1-4555-96cb-83bd4b1d6586",
+        "__version": 2,
+        "Flags": 0,
+        "Name": "Object",
+        "Position": "1.88815475,1.01860487,-7.88101959",
+        "Rotation": "-0.0615801364,-0.0129331984,0.96158129,-0.267211974",
+        "Scale": "1,1,1",
+        "Tags": "",
+        "Enabled": true,
+        "NetworkMode": 2,
+        "NetworkFlags": 0,
+        "NetworkOrphaned": 0,
+        "NetworkTransmit": true,
+        "OwnerTransfer": 1,
+        "Components": [
+          {
+            "__type": "Sandbox.SkinnedModelRenderer",
+            "__guid": "688c03a6-74f9-4aba-ba70-20ba032b3d87",
+            "__enabled": true,
+            "Flags": 0,
+            "AnimationGraph": null,
+            "BodyGroups": 18446744073709551615,
+            "BoneMergeTarget": null,
+            "CreateAttachments": true,
+            "CreateBoneObjects": false,
+            "DeformationMode": "Normal",
+            "LodOverride": null,
+            "MaterialGroup": null,
+            "MaterialOverride": "materials/darkrp/invisible.vmat",
+            "Materials": null,
+            "Model": {
+              "Id": "937f0415-6d31-4530-8f96-9468cedfce2e",
+              "Path": "weapons/crowbar/w_crowbar.vmdl"
+            },
+            "Morphs": {},
+            "OnComponentDestroy": null,
+            "OnComponentDisabled": null,
+            "OnComponentEnabled": null,
+            "OnComponentFixedUpdate": null,
+            "OnComponentStart": null,
+            "OnComponentUpdate": null,
+            "Parameters": {},
+            "PlaybackRate": 1,
+            "RenderOptions": {
+              "GameLayer": true,
+              "OverlayLayer": false,
+              "BloomLayer": false,
+              "AfterUILayer": false
+            },
+            "RenderType": "On",
+            "Sequence": {
+              "Name": null,
+              "Looping": true,
+              "Blending": false
+            },
+            "Tint": "1,1,1,1",
+            "UseAnimGraph": false
+          }
+        ],
+        "Children": [
+          {
+            "__guid": "6e4bf54e-f07a-449f-9000-054ce768183a",
+            "Flags": 0,
+            "Name": "darkrp_mesh",
+            "Position": "1.1,0,8.1",
+            "Rotation": "0.000000,-0.707107,0.000000,0.707107",
+            "Scale": "1.0,1.0,1.0",
+            "Enabled": true,
+            "NetworkMode": 2,
+            "NetworkInterpolation": true,
+            "NetworkOrphaned": 0,
+            "OwnerTransfer": 1,
+            "Components": [
+              {
+                "__type": "Sandbox.ModelRenderer",
+                "__guid": "1f0d4421-a9b2-40a8-a4bb-2c4823fa7fcb",
+                "__enabled": true,
+                "Flags": 0,
+                "BodyGroups": 18446744073709551615,
+                "CreateAttachments": false,
+                "MaterialGroup": null,
+                "MaterialOverride": null,
+                "Model": "models/darkrp/stunbaton.vmdl",
+                "RenderOptions": {
+                  "GameLayer": true,
+                  "OverlayLayer": false,
+                  "BloomLayer": false,
+                  "AfterUILayer": false
+                },
+                "RenderType": "On",
+                "Tint": "1,1,1,1"
+              }
+            ],
+            "Children": []
+          }
+        ]
+      }
+    ],
+    "__properties": {
+      "NetworkInterpolation": true,
+      "PhysicsMode": "Physics3D",
+      "TimeScale": 1,
+      "WantsSystemScene": true,
+      "Metadata": {},
+      "NavMesh": {
+        "Enabled": false,
+        "IncludeStaticBodies": true,
+        "IncludeKeyframedBodies": true,
+        "EditorAutoUpdate": false,
+        "AgentHeight": 64,
+        "AgentRadius": 16,
+        "AgentStepSize": 18,
+        "AgentMaxSlope": 40,
+        "ExcludedBodies": "",
+        "IncludedBodies": "",
+        "DeferGeneration": false,
+        "CustomBounds": false
+      }
+    },
+    "__variables": []
+  },
+  "ResourceVersion": 2,
+  "ShowInMenu": false,
+  "MenuPath": null,
+  "MenuIcon": null,
+  "DontBreakAsTemplate": false,
+  "__references": [],
+  "__version": 2
+}

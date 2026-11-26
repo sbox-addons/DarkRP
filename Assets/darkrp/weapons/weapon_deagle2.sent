@@ -1,0 +1,9 @@
+{
+  "Prefab": "darkrp/weapons/weapon_deagle2.prefab",
+  "Title": "Deagle",
+  "Description": "DarkRP: Deagle",
+  "Category": "DarkRP",
+  "IncludeCode": false,
+  "__references": [],
+  "__version": 0
+}

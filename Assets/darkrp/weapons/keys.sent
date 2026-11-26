@@ -1,0 +1,9 @@
+{
+  "Prefab": "darkrp/weapons/keys.prefab",
+  "Title": "Keys",
+  "Description": "DarkRP: Keys",
+  "Category": "DarkRP",
+  "IncludeCode": false,
+  "__references": [],
+  "__version": 0
+}

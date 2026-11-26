@@ -1,0 +1,9 @@
+{
+  "Prefab": "darkrp/weapons/unarrest_stick.prefab",
+  "Title": "Unarrest Baton",
+  "Description": "DarkRP: Unarrest Baton",
+  "Category": "DarkRP",
+  "IncludeCode": false,
+  "__references": [],
+  "__version": 0
+}

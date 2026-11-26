@@ -1,0 +1,426 @@
+{
+  "RootObject": {
+    "__guid": "58619bab-827f-4fed-9673-d05a2cb8b8f9",
+    "__version": 2,
+    "Flags": 0,
+    "Name": "weapon_pumpshotgun2",
+    "Position": "0,0,0",
+    "Rotation": "0,0,0,1",
+    "Scale": "1,1,1",
+    "Tags": "",
+    "Enabled": true,
+    "NetworkMode": 2,
+    "NetworkFlags": 0,
+    "NetworkOrphaned": 0,
+    "NetworkTransmit": true,
+    "OwnerTransfer": 1,
+    "Components": [
+      {
+        "__type": "ShotgunWeapon",
+        "__guid": "46fc1dd3-a766-45dc-9add-60c3ec20a256",
+        "__enabled": true,
+        "Flags": 0,
+        "AimFovScale": 0.8,
+        "AimFovTransitionTime": 0.15,
+        "AttackSound": {
+          "Id": "c8b7b0c6-f2b2-45d0-b3e0-7fed8ea72073",
+          "Path": "weapons/shotgun/sounds/shotgun_shoot.sound"
+        },
+        "AutoReload": true,
+        "Ballistics": {
+          "Damage": 20,
+          "Pellets": 8,
+          "Range": 2048,
+          "Radius": 1,
+          "Force": 500,
+          "SpreadBase": "4.584,4.584",
+          "SpreadGrowth": "2,2",
+          "SpreadRecovery": 0.8
+        },
+        "PunchDuration": 0.3,
+        "PunchFrequency": 2,
+        "PunchPitch": "0,0",
+        "PunchRoll": "1,1",
+        "PunchYaw": "0,0",
+        "ShakeAmplitude": 0,
+        "ShakeDuration": 0.3,
+        "ShakeFrequency": 40,
+        "CanCancelReload": true,
+        "ClipMaxSize": 8,
+        "DeployTime": 0.2,
+        "DisplayIcon": {
+          "$compiler": "texture",
+          "$source": "imagefile",
+          "data": {
+            "FilePath": "ui/weapons/spaghelli_m4_icon.png",
+            "MaxSize": 4096,
+            "ConvertHeightToNormals": false,
+            "NormalScale": 1,
+            "Rotate": 0,
+            "FlipVertical": false,
+            "FlipHorizontal": false,
+            "Cropping": {
+              "Left": 0,
+              "Top": 0,
+              "Right": 0,
+              "Bottom": 0
+            },
+            "Padding": {
+              "Left": 0,
+              "Top": 0,
+              "Right": 0,
+              "Bottom": 0
+            },
+            "InvertColor": false,
+            "Tint": "1,1,1,1",
+            "Blur": 0,
+            "Sharpen": 0,
+            "Brightness": 1,
+            "Contrast": 1,
+            "Saturation": 1,
+            "Hue": 0,
+            "Colorize": false,
+            "TargetColor": "1,1,1,1",
+            "CacheToDisk": true,
+            "FormatOverride": "RGBA8888"
+          },
+          "compiled": null
+        },
+        "DisplayName": "Pump Shotgun",
+        "DroppedGameObject": {
+          "_type": "gameobject",
+          "go": "f3cafb49-0b76-4187-9ba4-45f069e63515"
+        },
+        "DryFireSound": {
+          "Id": "066c6fdf-2cb5-44dc-b97e-630b53d8ed25",
+          "Path": "sounds/dry_fire.sound"
+        },
+        "FirstShellReloadTime": 0,
+        "Handedness": "Both",
+        "HoldBone": "hold_r",
+        "HoldType": "shotgun",
+        "IncrementalReloading": true,
+        "IronSightsFireScale": 0.2,
+        "Npc": {
+          "MinRange": 0,
+          "MaxRange": 1400,
+          "BurstMin": 2,
+          "BurstMax": 5,
+          "RestMin": 0.3,
+          "RestMax": 0.6,
+          "SpreadScale": 3,
+          "CanBePickedUp": true
+        },
+        "OnComponentDestroy": null,
+        "OnComponentDisabled": null,
+        "OnComponentEnabled": null,
+        "OnComponentFixedUpdate": null,
+        "OnComponentStart": null,
+        "OnComponentUpdate": null,
+        "PreferredSlot": 3,
+        "PrimaryAmmoType": {
+          "Id": "35d788ba-a7dd-42c7-ae78-b2e6c3c3de83",
+          "Path": "ammo/shotgun.ammo"
+        },
+        "PrimaryAutomatic": false,
+        "PrimaryDelay": 0.95,
+        "RecoilPitch": "-1.5,-0.800000012",
+        "RecoilYaw": "-0.5,0.5",
+        "ReloadStartTime": 0,
+        "ReloadTime": 0.5,
+        "SecondaryAmmoType": null,
+        "SecondaryAutomatic": false,
+        "SecondaryClipSize": -1,
+        "SecondaryDefaultClip": -1,
+        "SecondaryDelay": 0.5,
+        "SecondaryInput": {
+          "Action": null
+        },
+        "ShootForce": 100000,
+        "ShootInput": {
+          "Action": null
+        },
+        "SlotOrder": 0,
+        "StartingAmmo": 8,
+        "UsableByNpcs": true,
+        "UsesAmmo": true,
+        "UsesClips": true,
+        "Value": 10,
+        "ViewModelPrefab": {
+          "_type": "gameobject",
+          "prefab": "weapons/shotgun/shotgun_vm.prefab"
+        },
+        "WorldModelPrefab": {
+          "_type": "gameobject",
+          "prefab": "weapons/shotgun/shotgun_wm.prefab"
+        }
+      },
+      {
+        "__type": "Sandbox.ModelCollider",
+        "__guid": "00b8c595-58ae-45fb-9d28-96a649fb7b7d",
+        "__enabled": true,
+        "Flags": 0,
+        "ColliderFlags": 0,
+        "Elasticity": null,
+        "Friction": null,
+        "IsTrigger": false,
+        "Model": {
+          "Id": "1845addc-274c-419f-8578-1caea114c871",
+          "Path": "weapons/shotgun/w_spaghellim4.vmdl"
+        },
+        "OnComponentDestroy": null,
+        "OnComponentDisabled": null,
+        "OnComponentEnabled": null,
+        "OnComponentFixedUpdate": null,
+        "OnComponentStart": null,
+        "OnComponentUpdate": null,
+        "OnObjectTriggerEnter": null,
+        "OnObjectTriggerExit": null,
+        "OnTriggerEnter": null,
+        "OnTriggerExit": null,
+        "RollingResistance": null,
+        "Static": false,
+        "Surface": null,
+        "SurfaceVelocity": "0,0,0"
+      },
+      {
+        "__type": "Sandbox.Rigidbody",
+        "__guid": "53d64943-be82-4e5b-9fac-ba26b9e47898",
+        "__enabled": true,
+        "Flags": 0,
+        "AngularDamping": 0,
+        "EnableImpactDamage": true,
+        "EnhancedCcd": false,
+        "Gravity": true,
+        "GravityScale": 1,
+        "ImpactDamage": 0,
+        "LinearDamping": 0,
+        "Locking": {
+          "X": false,
+          "Y": false,
+          "Z": false,
+          "Pitch": false,
+          "Yaw": false,
+          "Roll": false
+        },
+        "MassCenterOverride": "0,0,0",
+        "MassOverride": 0,
+        "MinImpactDamageSpeed": 500,
+        "MotionEnabled": true,
+        "OnComponentDestroy": null,
+        "OnComponentDisabled": null,
+        "OnComponentEnabled": null,
+        "OnComponentFixedUpdate": null,
+        "OnComponentStart": null,
+        "OnComponentUpdate": null,
+        "OverrideMassCenter": false,
+        "RigidbodyFlags": 0,
+        "SleepThreshold": 2,
+        "StartAsleep": false
+      }
+    ],
+    "Children": [
+      {
+        "__guid": "f3cafb49-0b76-4187-9ba4-45f069e63515",
+        "__version": 2,
+        "Flags": 0,
+        "Name": "standalone_wm",
+        "Position": "0,0,0",
+        "Rotation": "0,0,0,1",
+        "Scale": "1,1,1",
+        "Tags": "",
+        "Enabled": true,
+        "NetworkMode": 2,
+        "NetworkFlags": 0,
+        "NetworkOrphaned": 0,
+        "NetworkTransmit": true,
+        "OwnerTransfer": 1,
+        "Components": [
+          {
+            "__type": "Sandbox.BaseWeaponModel",
+            "__guid": "cd712d03-3b6e-4e3b-9a2f-d8b8646449d9",
+            "__enabled": true,
+            "Flags": 0,
+            "DeploySound": null,
+            "EjectBrass": null,
+            "MuzzleEffect": {
+              "_type": "gameobject",
+              "prefab": "prefabs/effects/default_muzzleflash.prefab"
+            },
+            "MuzzleGameObject": {
+              "_type": "gameobject",
+              "go": "f480939c-eef2-4025-a3ac-d33d97f0181a"
+            },
+            "OnComponentDestroy": null,
+            "OnComponentDisabled": null,
+            "OnComponentEnabled": null,
+            "OnComponentFixedUpdate": null,
+            "OnComponentStart": null,
+            "OnComponentUpdate": null,
+            "Renderer": {
+              "_type": "component",
+              "component_id": "8996b267-7100-496f-af8f-09f3d9d0c374",
+              "go": "f3cafb49-0b76-4187-9ba4-45f069e63515",
+              "component_type": "SkinnedModelRenderer"
+            },
+            "ShellEjectGameObject": {
+              "_type": "gameobject",
+              "go": "fc123dd8-f6d6-4179-9c32-3fc077100946"
+            },
+            "TracerEffect": {
+              "_type": "gameobject",
+              "prefab": "prefabs/effects/default_tracer.prefab"
+            }
+          },
+          {
+            "__type": "Sandbox.SkinnedModelRenderer",
+            "__guid": "8996b267-7100-496f-af8f-09f3d9d0c374",
+            "__enabled": true,
+            "Flags": 0,
+            "AnimationGraph": null,
+            "BodyGroups": 9513,
+            "BoneMergeTarget": null,
+            "CreateAttachments": true,
+            "CreateBoneObjects": false,
+            "DeformationMode": "Normal",
+            "LodOverride": null,
+            "MaterialGroup": null,
+            "MaterialOverride": null,
+            "Materials": null,
+            "Model": {
+              "Id": "1845addc-274c-419f-8578-1caea114c871",
+              "Path": "weapons/shotgun/w_spaghellim4.vmdl"
+            },
+            "Morphs": {},
+            "OnComponentDestroy": null,
+            "OnComponentDisabled": null,
+            "OnComponentEnabled": null,
+            "OnComponentFixedUpdate": null,
+            "OnComponentStart": null,
+            "OnComponentUpdate": null,
+            "Parameters": {},
+            "PlaybackRate": 1,
+            "RenderOptions": {
+              "GameLayer": true,
+              "OverlayLayer": false,
+              "BloomLayer": false,
+              "AfterUILayer": false
+            },
+            "RenderType": "On",
+            "Sequence": {
+              "Name": null,
+              "Looping": true,
+              "Blending": false
+            },
+            "Tint": "1,1,1,1",
+            "UseAnimGraph": false
+          }
+        ],
+        "Children": [
+          {
+            "__guid": "f480939c-eef2-4025-a3ac-d33d97f0181a",
+            "__version": 2,
+            "Flags": 0,
+            "Name": "muzzle",
+            "Position": "0,0,0",
+            "Rotation": "0,0,0,1",
+            "Scale": "1,1,1",
+            "Tags": "",
+            "Enabled": true,
+            "NetworkMode": 2,
+            "NetworkFlags": 0,
+            "NetworkOrphaned": 0,
+            "NetworkTransmit": true,
+            "OwnerTransfer": 1,
+            "Components": [],
+            "Children": []
+          },
+          {
+            "__guid": "fc123dd8-f6d6-4179-9c32-3fc077100946",
+            "__version": 2,
+            "Flags": 0,
+            "Name": "eject",
+            "Position": "0,0,0",
+            "Rotation": "0,0,0,1",
+            "Scale": "1,1,1",
+            "Tags": "",
+            "Enabled": true,
+            "NetworkMode": 2,
+            "NetworkFlags": 0,
+            "NetworkOrphaned": 0,
+            "NetworkTransmit": true,
+            "OwnerTransfer": 1,
+            "Components": [],
+            "Children": []
+          }
+        ]
+      },
+      {
+        "__guid": "c3393338-9f19-4698-a2a8-ad8b613969f6",
+        "__version": 2,
+        "Flags": 0,
+        "Name": "Thumbnail Camera",
+        "Position": "27.552749,51.819184,12.474701",
+        "Rotation": "0.068575,-0.307688,0.796828,-0.515452",
+        "Scale": "1,1,1",
+        "Tags": "",
+        "Enabled": true,
+        "NetworkMode": 2,
+        "NetworkFlags": 0,
+        "NetworkOrphaned": 0,
+        "NetworkTransmit": true,
+        "OwnerTransfer": 1,
+        "Components": [
+          {
+            "__type": "ThumbnailCamera",
+            "__guid": "a915e09e-bb21-4665-a469-c940e35c3c97",
+            "__enabled": true,
+            "Flags": 0,
+            "FieldOfView": 12,
+            "FitToBounds": true,
+            "GizmoDistance": 60,
+            "OnComponentDestroy": null,
+            "OnComponentDisabled": null,
+            "OnComponentEnabled": null,
+            "OnComponentFixedUpdate": null,
+            "OnComponentStart": null,
+            "OnComponentUpdate": null,
+            "Focus": "-0.3,0",
+            "Padding": 0.08,
+            "Zoom": 1.7
+          }
+        ],
+        "Children": []
+      }
+    ],
+    "__properties": {
+      "NetworkInterpolation": true,
+      "PhysicsMode": "Physics3D",
+      "TimeScale": 1,
+      "WantsSystemScene": true,
+      "Metadata": {},
+      "NavMesh": {
+        "Enabled": false,
+        "IncludeStaticBodies": true,
+        "IncludeKeyframedBodies": true,
+        "EditorAutoUpdate": false,
+        "AgentHeight": 64,
+        "AgentRadius": 16,
+        "AgentStepSize": 18,
+        "AgentMaxSlope": 40,
+        "ExcludedBodies": "",
+        "IncludedBodies": "",
+        "DeferGeneration": false,
+        "CustomBounds": false
+      }
+    },
+    "__variables": []
+  },
+  "ResourceVersion": 2,
+  "ShowInMenu": true,
+  "MenuPath": "DarkRP/Weapons/Pump Shotgun",
+  "MenuIcon": null,
+  "DontBreakAsTemplate": false,
+  "__references": [],
+  "__version": 2
+}

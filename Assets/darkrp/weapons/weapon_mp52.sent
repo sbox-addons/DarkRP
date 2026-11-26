@@ -1,0 +1,9 @@
+{
+  "Prefab": "darkrp/weapons/weapon_mp52.prefab",
+  "Title": "MP5",
+  "Description": "DarkRP: MP5",
+  "Category": "DarkRP",
+  "IncludeCode": false,
+  "__references": [],
+  "__version": 0
+}

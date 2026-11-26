@@ -1,0 +1,429 @@
+{
+  "RootObject": {
+    "__guid": "362dcc89-fe2b-4673-82c8-4d069e8e55b9",
+    "__version": 2,
+    "Flags": 0,
+    "Name": "weapon_ak472",
+    "Position": "0,0,0",
+    "Rotation": "0,0,0,1",
+    "Scale": "1,1,1",
+    "Tags": "",
+    "Enabled": true,
+    "NetworkMode": 2,
+    "NetworkFlags": 0,
+    "NetworkOrphaned": 0,
+    "NetworkTransmit": true,
+    "OwnerTransfer": 1,
+    "Components": [
+      {
+        "__type": "M4a1Weapon",
+        "__guid": "a1e84f5b-694f-4e14-aef5-7795119ec630",
+        "__enabled": true,
+        "Flags": 0,
+        "AimFovScale": 0.8,
+        "AimFovTransitionTime": 0.15,
+        "AttackSound": {
+          "Id": "f5ae2a24-7e77-45f1-b077-c541e28ec194",
+          "Path": "weapons/m4a1/sounds/m4a1_shoot.sound"
+        },
+        "AutoReload": true,
+        "Ballistics": {
+          "Damage": 40,
+          "Pellets": 1,
+          "Range": 4096,
+          "Radius": 1,
+          "Force": 300,
+          "SpreadBase": "0.115,0.115",
+          "SpreadGrowth": "1.5,1.5",
+          "SpreadRecovery": 0.2
+        },
+        "PunchDuration": 0.3,
+        "PunchFrequency": 2,
+        "PunchPitch": "0,0",
+        "PunchRoll": "0.5,0.5",
+        "PunchYaw": "0,0",
+        "ShakeAmplitude": 0,
+        "ShakeDuration": 0.3,
+        "ShakeFrequency": 40,
+        "CanCancelReload": false,
+        "ClipMaxSize": 30,
+        "DeployTime": 0.2,
+        "DisplayIcon": {
+          "$compiler": "texture",
+          "$source": "imagefile",
+          "data": {
+            "FilePath": "ui/weapons/ar_4_icon.png",
+            "MaxSize": 4096,
+            "ConvertHeightToNormals": false,
+            "NormalScale": 1,
+            "Rotate": 0,
+            "FlipVertical": false,
+            "FlipHorizontal": false,
+            "Cropping": {
+              "Left": 0,
+              "Top": 0,
+              "Right": 0,
+              "Bottom": 0
+            },
+            "Padding": {
+              "Left": 0,
+              "Top": 0,
+              "Right": 0,
+              "Bottom": 0
+            },
+            "InvertColor": false,
+            "Tint": "1,1,1,1",
+            "Blur": 0,
+            "Sharpen": 0,
+            "Brightness": 1,
+            "Contrast": 1,
+            "Saturation": 1,
+            "Hue": 0,
+            "Colorize": false,
+            "TargetColor": "1,1,1,1",
+            "CacheToDisk": true,
+            "FormatOverride": "RGBA8888"
+          },
+          "compiled": "textures/generated/imagefile/9a3905a639169a1f.vtex"
+        },
+        "DisplayName": "AK47",
+        "DroppedGameObject": {
+          "_type": "gameobject",
+          "go": "02346368-08d9-4b88-bbb4-2cada348558c"
+        },
+        "DryFireSound": {
+          "Id": "066c6fdf-2cb5-44dc-b97e-630b53d8ed25",
+          "Path": "sounds/dry_fire.sound"
+        },
+        "FirstShellReloadTime": 0,
+        "Handedness": "Both",
+        "HoldBone": "hold_r",
+        "HoldType": "rifle",
+        "IncrementalReloading": false,
+        "IronSightsFireScale": 0.2,
+        "Npc": {
+          "MinRange": 0,
+          "MaxRange": 1400,
+          "BurstMin": 2,
+          "BurstMax": 5,
+          "RestMin": 0.3,
+          "RestMax": 0.6,
+          "SpreadScale": 3,
+          "CanBePickedUp": true
+        },
+        "OnComponentDestroy": null,
+        "OnComponentDisabled": null,
+        "OnComponentEnabled": null,
+        "OnComponentFixedUpdate": null,
+        "OnComponentStart": null,
+        "OnComponentUpdate": null,
+        "PreferredSlot": 2,
+        "PrimaryAmmoType": {
+          "Id": "c281a85b-14cd-4edf-a8a8-8e269d27b377",
+          "Path": "ammo/rifle.ammo"
+        },
+        "PrimaryAutomatic": true,
+        "PrimaryDelay": 0.08,
+        "RagdollBodyShare": 0.3,
+        "RagdollImpactScale": 1,
+        "RecoilPitch": "-0.300000012,-0.100000001",
+        "RecoilYaw": "-0.100000001,0.100000001",
+        "ReloadStartTime": 0,
+        "ReloadTime": 2,
+        "SecondaryAmmoType": null,
+        "SecondaryAutomatic": false,
+        "SecondaryClipSize": -1,
+        "SecondaryDefaultClip": -1,
+        "SecondaryDelay": 0.5,
+        "SecondaryInput": {
+          "Action": null
+        },
+        "ShootForce": 100000,
+        "ShootInput": {
+          "Action": null
+        },
+        "SlotOrder": 1,
+        "StartingAmmo": 30,
+        "UsableByNpcs": true,
+        "UsesAmmo": true,
+        "UsesClips": true,
+        "Value": 10,
+        "ViewModelPrefab": {
+          "_type": "gameobject",
+          "prefab": "weapons/m4a1/m4a1_vm.prefab"
+        },
+        "WorldModelPrefab": {
+          "_type": "gameobject",
+          "prefab": "weapons/m4a1/m4a1_wm.prefab"
+        }
+      },
+      {
+        "__type": "Sandbox.ModelCollider",
+        "__guid": "3bedd5a8-e365-416c-81e1-9f39c4fb7c7c",
+        "__enabled": true,
+        "Flags": 0,
+        "ColliderFlags": 0,
+        "Elasticity": null,
+        "Friction": null,
+        "IsTrigger": false,
+        "Model": {
+          "Id": "216f2d3d-31ad-44b4-baea-d0db60071ddf",
+          "Path": "weapons/m4a1/w_m4a1.vmdl"
+        },
+        "OnComponentDestroy": null,
+        "OnComponentDisabled": null,
+        "OnComponentEnabled": null,
+        "OnComponentFixedUpdate": null,
+        "OnComponentStart": null,
+        "OnComponentUpdate": null,
+        "OnObjectTriggerEnter": null,
+        "OnObjectTriggerExit": null,
+        "OnTriggerEnter": null,
+        "OnTriggerExit": null,
+        "RollingResistance": null,
+        "Static": false,
+        "Surface": null,
+        "SurfaceVelocity": "0,0,0"
+      },
+      {
+        "__type": "Sandbox.Rigidbody",
+        "__guid": "0948e326-76ce-4145-ae38-36c209c609c1",
+        "__enabled": true,
+        "Flags": 0,
+        "AngularDamping": 0,
+        "EnableImpactDamage": true,
+        "EnhancedCcd": false,
+        "Gravity": true,
+        "GravityScale": 1,
+        "ImpactDamage": 0,
+        "InertiaScale": 1,
+        "LinearDamping": 0,
+        "Locking": {
+          "X": false,
+          "Y": false,
+          "Z": false,
+          "Pitch": false,
+          "Yaw": false,
+          "Roll": false
+        },
+        "MassCenterOverride": "0,0,0",
+        "MassOverride": 0,
+        "MinImpactDamageSpeed": 500,
+        "MotionEnabled": true,
+        "OnComponentDestroy": null,
+        "OnComponentDisabled": null,
+        "OnComponentEnabled": null,
+        "OnComponentFixedUpdate": null,
+        "OnComponentStart": null,
+        "OnComponentUpdate": null,
+        "OverrideMassCenter": false,
+        "RigidbodyFlags": 0,
+        "SleepThreshold": 2,
+        "StartAsleep": false
+      }
+    ],
+    "Children": [
+      {
+        "__guid": "02346368-08d9-4b88-bbb4-2cada348558c",
+        "__version": 2,
+        "Flags": 0,
+        "Name": "standalone_wm",
+        "Position": "0,0,0",
+        "Rotation": "0,0,0,1",
+        "Scale": "1,1,1",
+        "Tags": "",
+        "Enabled": true,
+        "NetworkMode": 2,
+        "NetworkFlags": 0,
+        "NetworkOrphaned": 0,
+        "NetworkTransmit": true,
+        "OwnerTransfer": 1,
+        "Components": [
+          {
+            "__type": "Sandbox.BaseWeaponModel",
+            "__guid": "eb6af4ba-bb13-435e-9121-bae30e5bb4d9",
+            "__enabled": true,
+            "Flags": 0,
+            "DeploySound": null,
+            "EjectBrass": null,
+            "MuzzleEffect": {
+              "_type": "gameobject",
+              "prefab": "prefabs/effects/default_muzzleflash.prefab"
+            },
+            "MuzzleGameObject": {
+              "_type": "gameobject",
+              "go": "677348d6-4925-480d-a6b7-74c149ec105e"
+            },
+            "OnComponentDestroy": null,
+            "OnComponentDisabled": null,
+            "OnComponentEnabled": null,
+            "OnComponentFixedUpdate": null,
+            "OnComponentStart": null,
+            "OnComponentUpdate": null,
+            "Renderer": {
+              "_type": "component",
+              "component_id": "e0ad482b-775f-46fe-bb25-c407c8cb2ee9",
+              "go": "02346368-08d9-4b88-bbb4-2cada348558c",
+              "component_type": "SkinnedModelRenderer"
+            },
+            "ShellEjectGameObject": {
+              "_type": "gameobject",
+              "go": "eb77f413-a48a-42d5-bcc6-b13cda0e0853"
+            },
+            "TracerEffect": {
+              "_type": "gameobject",
+              "prefab": "prefabs/effects/default_tracer.prefab"
+            }
+          },
+          {
+            "__type": "Sandbox.SkinnedModelRenderer",
+            "__guid": "e0ad482b-775f-46fe-bb25-c407c8cb2ee9",
+            "__enabled": true,
+            "Flags": 0,
+            "AnimationGraph": null,
+            "BodyGroups": 9643,
+            "BoneMergeTarget": null,
+            "CreateAttachments": true,
+            "CreateBoneObjects": false,
+            "DeformationMode": "Normal",
+            "LodOverride": null,
+            "MaterialGroup": null,
+            "MaterialOverride": null,
+            "Materials": null,
+            "Model": {
+              "Id": "216f2d3d-31ad-44b4-baea-d0db60071ddf",
+              "Path": "weapons/m4a1/w_m4a1.vmdl"
+            },
+            "Morphs": {},
+            "OnComponentDestroy": null,
+            "OnComponentDisabled": null,
+            "OnComponentEnabled": null,
+            "OnComponentFixedUpdate": null,
+            "OnComponentStart": null,
+            "OnComponentUpdate": null,
+            "Parameters": {},
+            "PlaybackRate": 1,
+            "RenderOptions": {
+              "GameLayer": true,
+              "OverlayLayer": false,
+              "BloomLayer": false,
+              "AfterUILayer": false
+            },
+            "RenderType": "On",
+            "Sequence": {
+              "Name": null,
+              "Looping": true,
+              "Blending": false
+            },
+            "Tint": "0.78,0.66,0.52,1",
+            "UseAnimGraph": false
+          }
+        ],
+        "Children": [
+          {
+            "__guid": "677348d6-4925-480d-a6b7-74c149ec105e",
+            "__version": 2,
+            "Flags": 0,
+            "Name": "muzzle",
+            "Position": "0,0,0",
+            "Rotation": "0,0,0,1",
+            "Scale": "1,1,1",
+            "Tags": "",
+            "Enabled": true,
+            "NetworkMode": 2,
+            "NetworkFlags": 0,
+            "NetworkOrphaned": 0,
+            "NetworkTransmit": true,
+            "OwnerTransfer": 1,
+            "Components": [],
+            "Children": []
+          },
+          {
+            "__guid": "eb77f413-a48a-42d5-bcc6-b13cda0e0853",
+            "__version": 2,
+            "Flags": 0,
+            "Name": "eject",
+            "Position": "0,0,0",
+            "Rotation": "0,0,0,1",
+            "Scale": "1,1,1",
+            "Tags": "",
+            "Enabled": true,
+            "NetworkMode": 2,
+            "NetworkFlags": 0,
+            "NetworkOrphaned": 0,
+            "NetworkTransmit": true,
+            "OwnerTransfer": 1,
+            "Components": [],
+            "Children": []
+          }
+        ]
+      },
+      {
+        "__guid": "c4ba17f3-1952-4875-8500-0783749163df",
+        "__version": 2,
+        "Flags": 0,
+        "Name": "Thumbnail Camera",
+        "Position": "27.552749,51.819184,12.474701",
+        "Rotation": "0.068575,-0.307688,0.796828,-0.515452",
+        "Scale": "1,1,1",
+        "Tags": "",
+        "Enabled": true,
+        "NetworkMode": 2,
+        "NetworkFlags": 0,
+        "NetworkOrphaned": 0,
+        "NetworkTransmit": true,
+        "OwnerTransfer": 1,
+        "Components": [
+          {
+            "__type": "ThumbnailCamera",
+            "__guid": "811aa180-c1e4-4b0a-a140-2414491613d0",
+            "__enabled": true,
+            "Flags": 0,
+            "FieldOfView": 12,
+            "FitToBounds": true,
+            "GizmoDistance": 60,
+            "OnComponentDestroy": null,
+            "OnComponentDisabled": null,
+            "OnComponentEnabled": null,
+            "OnComponentFixedUpdate": null,
+            "OnComponentStart": null,
+            "OnComponentUpdate": null,
+            "Focus": "0.045,0",
+            "Padding": 0.08,
+            "Zoom": 1.6
+          }
+        ],
+        "Children": []
+      }
+    ],
+    "__properties": {
+      "NetworkInterpolation": true,
+      "PhysicsMode": "Physics3D",
+      "TimeScale": 1,
+      "WantsSystemScene": true,
+      "Metadata": {},
+      "NavMesh": {
+        "Enabled": false,
+        "IncludeStaticBodies": true,
+        "IncludeKeyframedBodies": true,
+        "EditorAutoUpdate": false,
+        "AgentHeight": 64,
+        "AgentRadius": 16,
+        "AgentStepSize": 18,
+        "AgentMaxSlope": 40,
+        "ExcludedBodies": "",
+        "IncludedBodies": "",
+        "DeferGeneration": false,
+        "CustomBounds": false
+      }
+    },
+    "__variables": []
+  },
+  "ResourceVersion": 2,
+  "ShowInMenu": true,
+  "MenuPath": "DarkRP/Weapons/AK47",
+  "MenuIcon": null,
+  "DontBreakAsTemplate": false,
+  "__references": [],
+  "__version": 2
+}

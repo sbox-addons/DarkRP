@@ -1,0 +1,9 @@
+{
+  "Prefab": "darkrp/weapons/keypadchecker.prefab",
+  "Title": "Keypad Checker",
+  "Description": "DarkRP: Keypad Checker",
+  "Category": "DarkRP",
+  "IncludeCode": false,
+  "__references": [],
+  "__version": 0
+}

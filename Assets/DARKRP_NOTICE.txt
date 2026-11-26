@@ -1,0 +1,40 @@
+DarkRP for s&box - a roleplay addon for s&box Sandbox.
+
+This addon is a port of DarkRP for Garry's Mod (https://github.com/FPtje/DarkRP).
+DarkRP is Copyright (c) 2014 Falco Peijnenburg and is licensed under the MIT License:
+
+    The MIT License (MIT)
+
+    Copyright (c) 2014 Falco Peijnenburg
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
+
+Derived from DarkRP and rewritten for s&box (C# scripts instead of Lua):
+- game logic: jobs, money and salaries, police (wanted, warrants, arrests), mayor (laws, lockdown, lottery),
+  doors, voting, hunger, hits, chat commands, shipments and buyable entities (scripts/darkrp/core, modules)
+- the default jobs, shipments, entities, ammo, food, categories and settings (scripts/darkrp/core/RPDefaults.csx,
+  RPConfig.csx), with s&box models and clothing instead of Half-Life 2 / Counter-Strike content
+- the weapons: arrest/unarrest baton, stunstick, battering ram, keys, lockpick, pocket, medic kit, weapon checker,
+  keypad checker and the DarkRP guns (scripts/darkrp/weapons, darkrp/weapons)
+- the weapon icons in ui/darkrp/weapons (converted from DarkRP's content/materials/vgui/entities)
+- disabled_defaults (darkrpmodification's disabled_defaults.lua) and a prop protection following the ideas of
+  Falco's Prop Protection (FPP), which ships with DarkRP (scripts/darkrp/modules/RPPropProtection.csx)
+
+The guns, and the arm animations of the batons and the door ram, are Sandbox's (MIT, Facepunch Studios). The stun
+baton, door ram, law board and money models in models/darkrp were made for this addon.

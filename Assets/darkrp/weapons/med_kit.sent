@@ -1,0 +1,9 @@
+{
+  "Prefab": "darkrp/weapons/med_kit.prefab",
+  "Title": "Medic Kit",
+  "Description": "DarkRP: Medic Kit",
+  "Category": "DarkRP",
+  "IncludeCode": false,
+  "__references": [],
+  "__version": 0
+}

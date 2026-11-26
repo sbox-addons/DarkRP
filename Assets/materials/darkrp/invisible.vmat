@@ -1,0 +1,16 @@
+// DarkRP for s&box: fully alpha-tested away. Hides the weapon mesh of a borrowed Sandbox view model while its arms
+// keep animating (see Docs/port/make_weapons.py).
+
+Layer0
+{
+	shader "shaders/complex.shader"
+	F_ALPHA_TEST 1
+	F_DO_NOT_CAST_SHADOWS 1
+	g_flAlphaTestReference "0.500"
+	TextureColor "materials/darkrp/invisible_color.png"
+	TextureTranslucency "materials/darkrp/invisible_trans.png"
+	g_flModelTintAmount "1.000"
+	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+	TextureRoughness "materials/default/default_rough.tga"
+	TextureNormal "materials/default/default_normal.tga"
+}

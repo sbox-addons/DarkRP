@@ -1,0 +1,9 @@
+{
+  "Prefab": "darkrp/weapons/pocket.prefab",
+  "Title": "Pocket",
+  "Description": "DarkRP: Pocket",
+  "Category": "DarkRP",
+  "IncludeCode": false,
+  "__references": [],
+  "__version": 0
+}

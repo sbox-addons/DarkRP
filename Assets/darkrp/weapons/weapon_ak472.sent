@@ -1,0 +1,9 @@
+{
+  "Prefab": "darkrp/weapons/weapon_ak472.prefab",
+  "Title": "AK47",
+  "Description": "DarkRP: AK47",
+  "Category": "DarkRP",
+  "IncludeCode": false,
+  "__references": [],
+  "__version": 0
+}
